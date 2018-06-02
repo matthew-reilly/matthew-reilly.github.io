@@ -18,5 +18,11 @@
   font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 @mixin heading-font {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+@mixin sans-serif {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+@mixin mono-font {
+  font-family: 'Cutive Mono', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
