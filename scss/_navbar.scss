@@ -10,6 +10,11 @@
     background-color: $primary;
     @include heading-font;
   }
+
+  .navbar-nav {
+    flex-direction: row !important;
+  }
+
   .navbar-brand {
     color: $primary;
     @include script-font;
@@ -65,7 +70,7 @@
       background-color: $white;
       .navbar-brand {
         font-size: 1.25em;
-        padding: 12px 0;
+        padding: 2px 0;
       }
     }
   }
